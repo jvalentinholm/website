@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cx-white: #ffffff;
+  --cx-black: #231f20;
+  --cx-petroleum: #326875;
+  --cx-offwhite: #efe3ce;
+  --cx-orange: #e59515;
+  --cx-freshgreen: #5fb130;
+  --cx-coregreen: #265d37;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--cx-offwhite);
+  color: var(--cx-black);
+}
+::selection { background: rgba(229,149,21,.28); }
+
+.container-cx {
+  width: min(100% - 48px, 1240px);
+  margin-inline: auto;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(38, 93, 55, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(38, 93, 55, 0.055) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.soft-card {
+  background: rgba(255,255,255,.72);
+  border: 1px solid rgba(38,93,55,.14);
+  box-shadow: 0 18px 55px rgba(35,31,32,.06);
+  backdrop-filter: blur(12px);
+}
+
+.kicker {
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  font-size: .76rem;
+  font-weight: 700;
+  color: var(--cx-petroleum);
+}
+
+.flow-line {
+  stroke-dasharray: 8 10;
+  animation: dash 20s linear infinite;
+}
+@keyframes dash { to { stroke-dashoffset: -360; } }
+
+@media (max-width: 768px) {
+  .container-cx { width: min(100% - 28px, 1240px); }
+}
