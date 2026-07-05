@@ -1,8 +1,17 @@
-# Circle X Website
+# Circle X Website v0.5
 
-Project Atlas v0.4 — Next.js frontend for Circle X Group.
+Next.js/Tailwind prototype for Circle X Group.
 
-## Run locally
+## v0.5 changes
+
+- Rebuilt Home into reusable section components
+- New header spacing and logo sizing
+- New Nordic/isometric SVG hero illustration
+- New platform pillar cards with custom icons
+- Improved typography scale, spacing, metrics and footer
+- No facility photography or AI-generated plant images
+
+## Local development
 
 ```bash
 npm install
@@ -10,21 +19,3 @@ npm run dev
 ```
 
 Open http://localhost:3000
-
-## Stack
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
-## Design direction
-
-Nordic industrial design, based on Circle X design manual colors:
-
-- Core Green: #265D37
-- Fresh Green: #5FB130
-- Orange: #E59515
-- Off-white: #EFE3CE
-- Petroleum: #326875
-- Black: #231F20

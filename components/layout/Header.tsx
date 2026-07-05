@@ -1,24 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const nav = ["Platform", "Technology", "Applications", "Deployment", "Impact", "Company", "News"];
+const nav = [
+  ["Platform", "#platform"],
+  ["Technology", "#technology"],
+  ["Applications", "#applications"],
+  ["Deployment", "#deployment"],
+  ["Impact", "#impact"],
+  ["Company", "#company"],
+];
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-black/10 bg-white/90 backdrop-blur-xl">
-      <div className="mx-auto flex h-28 max-w-[1440px] items-center justify-between px-6 md:px-10 lg:px-16">
-        <Link href="/" className="flex items-center">
-          <Image src="/circlex-logo-core.png" alt="Circle X Group" width={128} height={128} className="h-20 w-auto object-contain" priority />
+    <header className="sticky top-0 z-50 border-b border-coreGreen/10 bg-offWhite/92 backdrop-blur-xl">
+      <div className="cx-container flex h-[104px] items-center justify-between">
+        <Link href="/" className="flex h-[72px] items-center" aria-label="Circle X Group home">
+          <Image src="/circlex-logo-core.png" alt="Circle X Group" width={160} height={160} className="h-[62px] w-auto object-contain" priority />
         </Link>
-        <nav className="hidden items-center gap-9 text-[15px] font-medium text-black/80 lg:flex">
-          {nav.map((item) => (
-            <Link key={item} href={`#${item.toLowerCase()}`} className="transition hover:text-coreGreen">
-              {item}
+        <nav className="hidden items-center gap-8 text-[15px] font-medium text-black/72 lg:flex">
+          {nav.map(([label, href]) => (
+            <Link key={label} href={href} className="transition hover:text-coreGreen">
+              {label}
             </Link>
           ))}
         </nav>
-        <Link href="#contact" className="hidden rounded-full bg-orange px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#d08412] md:inline-flex">
-          Contact us <span className="ml-3">→</span>
+        <Link href="#contact" className="hidden rounded-full bg-white px-5 py-3 text-sm font-semibold text-coreGreen ring-1 ring-coreGreen/15 transition hover:bg-coreGreen hover:text-white md:inline-flex">
+          Contact <span className="ml-2">→</span>
         </Link>
       </div>
     </header>
