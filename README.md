@@ -1,48 +1,30 @@
-# Circle X Website v0.3
+# Circle X Website
 
-A first production-oriented Next.js/Tailwind codebase for the Circle X website.
+Project Atlas v0.4 — Next.js frontend for Circle X Group.
 
-## What's included
-
-- Next.js app router setup
-- Tailwind CSS design system
-- Circle X brand colours from the design guide
-- Correct Circle X logo in header/footer
-- Nordic/light visual direction
-- No plant photography
-- Abstract SVG-based platform illustration
-- Home page sections:
-  - Header
-  - Hero
-  - Platform
-  - Technology
-  - Applications
-  - Deployment
-  - Impact
-  - Company
-  - Footer
-
-## Local install
-
-Open this folder in VS Code, then run:
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000 in your browser.
+Open http://localhost:3000
 
-## Commit to GitHub Desktop
+## Stack
 
-After copying these files into your local `website` folder:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-1. Open GitHub Desktop
-2. You should see the new files under Changes
-3. Write summary: `Add Circle X website v0.3`
-4. Click Commit to main
-5. Click Push origin
+## Design direction
 
-## Notes
+Nordic industrial design, based on Circle X design manual colors:
 
-The current font is Inter as a web-safe stand-in. Replace with Urbane when the licensed web font files / provider setup are available. Do not commit proprietary font files unless licence allows web distribution.
+- Core Green: #265D37
+- Fresh Green: #5FB130
+- Orange: #E59515
+- Off-white: #EFE3CE
+- Petroleum: #326875
+- Black: #231F20
