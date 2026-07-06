@@ -1,5 +1,6 @@
 # Decision 001 – Positioning
 
+**Project:** Atlas  
 **Version:** 1.0  
 **Status:** Approved  
 **Date:** 2026-07-06
@@ -8,80 +9,118 @@
 
 # Purpose
 
-Define the strategic positioning of Circle X.
+This document defines the strategic positioning of Circle X.
 
-This document serves as the primary reference for all communication, design and content decisions across the website and future digital assets.
+It serves as the primary reference for all website content, visual design and communication.
+
+Whenever new content is created, this document takes precedence.
 
 ---
 
-# Position
+# Positioning Statement
 
 Circle X is an industrial platform for chemical recycling.
 
-The platform converts difficult plastic waste into certified circular synthetic oil used as feedstock for the production of new plastics.
+The company converts difficult plastic waste into certified circular synthetic oil used as feedstock for the production of new plastics.
 
-Circle X creates industrial infrastructure that enables plastic circularity at scale.
+Rather than positioning itself around a single technology, Circle X is building industrial infrastructure that enables plastic circularity at scale.
 
 ---
 
-# We are not
+# Our Category
+
+Circle X operates within the category of **chemical recycling**.
+
+This must be clearly communicated throughout the website.
+
+However, Circle X differentiates itself through:
+
+- Industrial scalability
+- Commercial deployment
+- Proprietary technology
+- Capital-efficient expansion
+- Ability to process difficult plastic waste streams
+
+The category should be embraced.
+
+The differentiation should be demonstrated.
+
+---
+
+# What We Solve
+
+Millions of tonnes of plastic waste cannot be recycled mechanically.
+
+Today, much of this material is incinerated or landfilled.
+
+Circle X enables this difficult plastic waste to become a valuable industrial resource.
+
+---
+
+# What We Produce
+
+Circle X produces certified circular synthetic oil.
+
+The oil is used as feedstock by refineries and petrochemical companies to manufacture new plastics.
+
+Circle X does **not** produce fuel.
+
+---
+
+# What We Are
+
+Circle X is:
+
+- an industrial platform
+- a chemical recycling company
+- a technology company
+- a manufacturing company
+- a circular economy company
+
+---
+
+# What We Are Not
 
 Circle X is not positioned as:
 
 - a machine builder
-- a pyrolysis company
 - a waste management company
-- a recycling company
+- a traditional recycling company
+- a pyrolysis company
 
-Although Circle X operates within the category of chemical recycling, the company is positioned as an industrial platform rather than a single technology.
+Although the underlying process belongs to the chemical recycling category, the company should never be positioned around a single process technology.
 
----
-
-# Category
-
-Circle X operates within:
-
-**Chemical Recycling**
-
-The website should clearly communicate this category while demonstrating how Circle X differentiates itself through its industrial platform, commercial model and proprietary technology.
-
----
-
-# Core Message
-
-From difficult plastic waste to certified circular synthetic oil.
-
----
-
-# Strategic Principles
-
-Every page should reinforce that:
-
-- Circle X solves a difficult waste problem.
-- Circle X produces certified circular synthetic oil.
-- Circle X enables new plastic production.
-- Circle X is scalable.
-- Circle X is an industrial company.
+The platform always comes first.
 
 ---
 
 # Communication Principles
 
-Always explain:
+Every page should reinforce one or more of the following:
 
-- customer value
-- industrial value
-- environmental value
+- difficult plastic waste becomes a resource
+- chemical recycling enables plastic circularity
+- circular synthetic oil replaces virgin fossil feedstock
+- industrial deployment is the competitive advantage
+- scalability is built into the platform
 
-Do not disclose confidential process information or intellectual property.
+---
 
-The website should explain the value of the technology without revealing protected know-how.
+# Technology Communication
+
+The website should explain the benefits of the technology.
+
+It should not disclose confidential process information, engineering details or intellectual property that may compromise current or future patent applications.
+
+Principle:
+
+**Explain the value. Protect the know-how.**
 
 ---
 
 # Success Criteria
 
-A first-time visitor should understand within 30 seconds:
+Within 30 seconds a first-time visitor should understand:
 
 - what Circle X does
 - who Circle X helps
