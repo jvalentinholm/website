@@ -1,14 +1,10 @@
-# Circle X Website v0.6 — Build 1
+# Circle X Website
 
-Next.js/Tailwind prototype for Circle X Group.
+Project for the Circle X digital platform.
 
-## v0.6 Build 1 changes
+## Current version
 
-- Added development version badge in the Hero
-- Reworked Header spacing and responsive menu affordance
-- Rebuilt Hero layout with stronger Nordic industrial hierarchy
-- Refined SVG platform illustration for a lighter, more premium visual direction
-- Added three proof points below Hero copy
+v0.7 – Hero value proposition build.
 
 ## Local development
 
