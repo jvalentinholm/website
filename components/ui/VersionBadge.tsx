@@ -4,7 +4,7 @@ export function VersionBadge() {
       <span className="h-2 w-2 rounded-full bg-orange" />
       <span>Design Preview</span>
       <span className="text-black/32">·</span>
-      <span>v0.7</span>
+      <span>v0.8</span>
     </div>
   );
 }

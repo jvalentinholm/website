@@ -523,11 +523,17 @@ video {
 .-right-10 {
   right: -2.5rem;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .bottom-12 {
   bottom: 3rem;
 }
 .bottom-\[-26rem\] {
   bottom: -26rem;
+}
+.left-0 {
+  left: 0px;
 }
 .left-8 {
   left: 2rem;
@@ -587,14 +593,14 @@ video {
 .mt-10 {
   margin-top: 2.5rem;
 }
-.mt-12 {
-  margin-top: 3rem;
-}
 .mt-14 {
   margin-top: 3.5rem;
 }
 .mt-16 {
   margin-top: 4rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -647,6 +653,12 @@ video {
 .h-32 {
   height: 8rem;
 }
+.h-40 {
+  height: 10rem;
+}
+.h-44 {
+  height: 11rem;
+}
 .h-\[112px\] {
   height: 112px;
 }
@@ -698,6 +710,12 @@ video {
 .w-32 {
   width: 8rem;
 }
+.w-40 {
+  width: 10rem;
+}
+.w-44 {
+  width: 11rem;
+}
 .w-5 {
   width: 1.25rem;
 }
@@ -735,6 +753,9 @@ video {
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
+.max-w-xl {
+  max-width: 36rem;
+}
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -764,14 +785,17 @@ video {
 .justify-between {
   justify-content: space-between;
 }
+.gap-10 {
+  gap: 2.5rem;
+}
 .gap-12 {
   gap: 3rem;
 }
 .gap-14 {
   gap: 3.5rem;
 }
-.gap-2 {
-  gap: 0.5rem;
+.gap-16 {
+  gap: 4rem;
 }
 .gap-3 {
   gap: 0.75rem;
@@ -787,6 +811,11 @@ video {
 }
 .gap-8 {
   gap: 2rem;
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -811,6 +840,12 @@ video {
 }
 .rounded-full {
   border-radius: 9999px;
+}
+.rounded-bl-full {
+  border-bottom-left-radius: 9999px;
+}
+.rounded-tr-full {
+  border-top-right-radius: 9999px;
 }
 .border {
   border-width: 1px;
@@ -843,6 +878,12 @@ video {
 .bg-offWhite {
   --tw-bg-opacity: 1;
   background-color: rgb(239 227 206 / var(--tw-bg-opacity, 1));
+}
+.bg-offWhite\/50 {
+  background-color: rgb(239 227 206 / 0.5);
+}
+.bg-offWhite\/55 {
+  background-color: rgb(239 227 206 / 0.55);
 }
 .bg-offWhite\/90 {
   background-color: rgb(239 227 206 / 0.9);
@@ -927,6 +968,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -939,8 +984,12 @@ video {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
 }
-.pb-24 {
-  padding-bottom: 6rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-20 {
+  padding-bottom: 5rem;
 }
 .pt-10 {
   padding-top: 2.5rem;
@@ -1028,6 +1077,9 @@ video {
 .leading-\[1\.03\] {
   line-height: 1.03;
 }
+.leading-tight {
+  line-height: 1.25;
+}
 .tracking-\[-\.068em\] {
   letter-spacing: -.068em;
 }
@@ -1040,11 +1092,17 @@ video {
 .tracking-\[-0\.04em\] {
   letter-spacing: -0.04em;
 }
+.tracking-\[-0\.055em\] {
+  letter-spacing: -0.055em;
+}
 .tracking-\[0\.18em\] {
   letter-spacing: 0.18em;
 }
 .tracking-\[0\.22em\] {
   letter-spacing: 0.22em;
+}
+.tracking-\[0\.28em\] {
+  letter-spacing: 0.28em;
 }
 .tracking-\[0\.30em\] {
   letter-spacing: 0.30em;
@@ -1095,9 +1153,19 @@ video {
   --tw-shadow-colored: 0 12px 28px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.shadow-\[0_18px_50px_rgba\(38\2c 93\2c 55\2c 0\.06\)\] {
+  --tw-shadow: 0 18px 50px rgba(38,93,55,0.06);
+  --tw-shadow-colored: 0 18px 50px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
 .shadow-\[0_6px_0_current\2c 0_-6px_0_current\] {
   --tw-shadow: 0 6px 0 current,0 -6px 0 current;
   --tw-shadow-colored: 0 6px 0 var(--tw-shadow-color), 0 -6px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-card {
+  --tw-shadow: 0 18px 50px rgba(38, 93, 55, 0.10);
+  --tw-shadow-colored: 0 18px 50px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-soft {
@@ -1140,6 +1208,10 @@ video {
 }
 .backdrop-blur-md {
   --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .transition {
@@ -1281,6 +1353,11 @@ a { color: inherit; text-decoration: none; }
     padding: 2rem;
   }
 
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -1289,6 +1366,10 @@ a { color: inherit; text-decoration: none; }
   .md\:py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .md\:pb-28 {
@@ -1306,6 +1387,11 @@ a { color: inherit; text-decoration: none; }
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-5xl {
@@ -1345,6 +1431,10 @@ a { color: inherit; text-decoration: none; }
     height: 104px;
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-\[\.85fr_1\.15fr\] {
     grid-template-columns: .85fr 1.15fr;
   }
@@ -1353,8 +1443,12 @@ a { color: inherit; text-decoration: none; }
     grid-template-columns: .95fr 1.05fr;
   }
 
-  .lg\:grid-cols-\[1\.02fr_\.98fr\] {
-    grid-template-columns: 1.02fr .98fr;
+  .lg\:grid-cols-\[0\.92fr_1\.08fr\] {
+    grid-template-columns: 0.92fr 1.08fr;
+  }
+
+  .lg\:grid-cols-\[1\.04fr_\.96fr\] {
+    grid-template-columns: 1.04fr .96fr;
   }
 
   .lg\:grid-cols-\[1\.1fr_\.9fr\] {
@@ -1373,8 +1467,12 @@ a { color: inherit; text-decoration: none; }
     gap: 4rem;
   }
 
-  .lg\:pb-32 {
-    padding-bottom: 8rem;
+  .lg\:gap-20 {
+    gap: 5rem;
+  }
+
+  .lg\:pb-28 {
+    padding-bottom: 7rem;
   }
 
   .lg\:pl-2 {
