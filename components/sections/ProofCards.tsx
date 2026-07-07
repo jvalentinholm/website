@@ -1,38 +1,78 @@
 const proofCards = [
   {
-    eyebrow: "Commercially proven",
-    title: "Commercial production and industrial partnerships.",
-    items: ["Commercial production", "Offtake agreement with Trafigura", "Downstream validation with Neste"],
+    eyebrow: "ESTABLISHED VALUE STREAM",
+    title:
+      "Industrial value chain established from mixed plastic waste to certified circular feedstock.",
+    items: [
+      "Commercial production",
+      "Industrial downstream partners",
+      "Documented material traceability",
+    ],
   },
   {
-    eyebrow: "Certified",
-    title: "Documented circular feedstock for industrial value chains.",
-    items: ["REACH registered", "ISCC+ certified", "End-of-Waste status", "Certification body placeholder"],
+    eyebrow: "CERTIFIED CIRCULAR OUTPUT",
+    title:
+      "Produced to meet the requirements of the industrial plastics value chain.",
+    items: [
+      "REACH registered",
+      "ISCC+ certified",
+      "End-of-Waste approved",
+      "Certification body coming soon",
+    ],
   },
   {
-    eyebrow: "Built for scale",
-    title: "A modular platform designed for industrial deployment.",
-    items: ["Continuous production", "Modular production lines", "Designed for global deployment"],
+    eyebrow: "BUILT WHERE THE WASTE IS",
+    title:
+      "Modular production facilities deployed close to major plastic waste streams.",
+    items: [
+      "Modular deployment",
+      "Reduced transport",
+      "Local circular value creation",
+    ],
   },
 ];
 
 export function ProofCards() {
   return (
-    <section className="bg-white py-8 md:py-12">
+    <section className="bg-offWhite py-24 md:py-32">
       <div className="cx-container">
-        <div className="grid gap-4 lg:grid-cols-3">
-          {proofCards.map((card) => (
-            <article key={card.eyebrow} className="rounded-[1.75rem] border border-coreGreen/12 bg-offWhite/55 p-7 shadow-[0_18px_50px_rgba(38,93,55,0.06)] md:p-8">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-orange">{card.eyebrow}</p>
-              <h2 className="mt-4 text-2xl font-semibold leading-tight tracking-[-0.04em] text-coreGreen md:text-3xl">{card.title}</h2>
-              <ul className="mt-7 space-y-3">
-                {card.items.map((item) => (
-                  <li key={item} className="flex gap-3 text-sm leading-6 text-black/66">
-                    <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-orange" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+        <div className="grid gap-5 lg:grid-cols-3">
+          {proofCards.map((card, index) => (
+            <article
+              key={card.eyebrow}
+              className="group relative overflow-hidden rounded-[2rem] bg-white p-8 ring-1 ring-coreGreen/10 transition duration-300 hover:-translate-y-1 hover:shadow-card md:p-10"
+            >
+              <div className="absolute right-0 top-0 h-36 w-36 translate-x-12 -translate-y-12 rounded-full bg-freshGreen/10 transition duration-300 group-hover:bg-orange/12" />
+
+              <div className="relative">
+                <div className="mb-10 flex items-center justify-between">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-coreGreen/60">
+                    {card.eyebrow}
+                  </p>
+
+                  <span className="text-sm font-semibold text-orange">
+                    0{index + 1}
+                  </span>
+                </div>
+
+                <h3 className="text-3xl font-semibold leading-tight tracking-[-0.04em] text-coreGreen md:text-[2rem]">
+                  {card.title}
+                </h3>
+
+                <ul className="mt-10 space-y-4">
+                  {card.items.map((item) => (
+                    <li
+                      key={item}
+                      className="flex gap-3 text-base leading-7 text-black/65"
+                    >
+                      <span className="mt-[0.45rem] flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-freshGreen/16 text-[10px] font-bold text-coreGreen">
+                        ✓
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </article>
           ))}
         </div>
